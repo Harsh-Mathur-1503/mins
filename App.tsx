@@ -9,7 +9,7 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {Text, View, SafeAreaView} from 'react-native';
-
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {Provider} from 'react-redux';
 import {store} from './store';
 import HomeScreen from './screens/HomeScreen';
